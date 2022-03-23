@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      @media only screen and (max-width: 768px) {
+    #navbar {
+        position:relative;
+        top:0;
+        left:0;
+        width: 100%;
+    } 
+}
+    </style>
   </head>
 
   <body>
@@ -16,10 +26,12 @@
       <a href="#Hello_World" class="nav-link">Hello World</a>
       <a href="#Variables" class="nav-link">Variables</a>
       <a href="#Declaring_Variables" class="nav-link">Declaring Variables</a>
+      <a href="#Data_Types" class="nav-link">Data Types</a>
     </nav>
-    <div id="main-doc">
-      <section class="main-section">
-        <header id="Introduction">Introduction</header>
+    
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header >Introduction</header>
         <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
 
         <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
@@ -105,7 +117,7 @@
           <li>Object</li>
         </ul>
       </section>
-    </div>
+    </main>
     <!--
 
     Hello Camper!
