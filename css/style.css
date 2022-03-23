@@ -1,0 +1,16 @@
+@media screen and (width: 900px) {
+    body {  
+        display: flexbox;
+    }
+
+    #navbar {
+        position:fixed;
+        top:0;
+        left:0;
+        width: 30%;
+        height: 100vh;
+    }
+    #navbar a {
+        width: 100%;
+    }
+}
